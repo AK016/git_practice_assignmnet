@@ -1,7 +1,7 @@
 let n=11;
 let count=0;
 for(i=2;i<n;i++){
-    if(i%n==0){
+    if(n%i==0){
         count++
     }
 }
